@@ -11,7 +11,7 @@ export default function ServicesPage() {
         <div className={styles.container}>
           <header className={styles.hero}>
             <span className={styles.subtitle}>What We Do</span>
-            <h1 className={styles.title}>3 ways we fill your clinic with patients</h1>
+            <h1 className={styles.title}>4 ways we fill your clinic with patients</h1>
             <p className={styles.description}>
               No complicated marketing words. We focus on one thing: getting real patients to message your clinic and book appointments.
             </p>
@@ -43,7 +43,7 @@ export default function ServicesPage() {
             </div>
 
             <div className={styles.card}>
-              <h2 style={{ color: 'var(--color-primary)', marginBottom: '1rem', fontSize: '1.5rem' }}>💬 WhatsApp Booking System</h2>
+              <h2 style={{ color: 'var(--color-primary)', marginBottom: '1rem', fontSize: '1.5rem' }}>💬 WhatsApp Booking</h2>
               <p style={{ color: 'var(--color-muted)', marginBottom: '1.5rem', lineHeight: '1.6' }}>
                 Likes on photos are useless. We send interested people straight to your WhatsApp with automatic replies so they get an answer even when you are busy.
               </p>
@@ -53,6 +53,25 @@ export default function ServicesPage() {
                 <li style={{ marginBottom: '0.5rem' }}>✓ Lower no-show rate for bookings</li>
               </ul>
             </div>
+
+            <div className={styles.card}>
+              <h2 style={{ color: 'var(--color-primary)', marginBottom: '1rem', fontSize: '1.5rem' }}>🎵 TikTok Discovery</h2>
+              <p style={{ color: 'var(--color-muted)', marginBottom: '1.5rem', lineHeight: '1.6' }}>
+                The fastest growing platform for aesthetics in Pakistan. We create short-form video ads that reach the younger, high-intent demographic in your city.
+              </p>
+              <ul style={{ listStyle: 'none', padding: 0, color: 'var(--color-foreground)', fontSize: '0.9375rem' }}>
+                <li style={{ marginBottom: '0.5rem' }}>✓ Visual &quot;Before/After&quot; storytelling</li>
+                <li style={{ marginBottom: '0.5rem' }}>✓ Massive reach for lower budgets</li>
+                <li style={{ marginBottom: '0.5rem' }}>✓ Highly targeted localized traffic</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className={styles.complianceSection} style={{ marginTop: 'var(--spacing-3xl)', padding: 'var(--spacing-xl)', background: 'rgba(0, 230, 118, 0.03)', border: '1px solid rgba(0, 230, 118, 0.1)', borderRadius: 'var(--radius-lg)' }}>
+            <h2 style={{ color: 'var(--color-foreground)', marginBottom: '1rem' }}>Built for PMDC Compliance</h2>
+            <p style={{ color: 'var(--color-muted)', lineHeight: '1.6', maxWidth: '800px' }}>
+              We understand the strict medical advertising rules in Pakistan. Our system focuses on <strong>Patient Education and Information</strong> rather than aggressive commercial selling, keeping your clinic&apos;s reputation and medical license safe.
+            </p>
           </div>
 
           <div style={{ marginTop: 'var(--spacing-2xl)', textAlign: 'center' }}>

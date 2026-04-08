@@ -35,7 +35,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* ── TRUST BAR (Styled Badges — NOT plain text) ───── */}
         <div className={styles.trustBar}>
           <p className={styles.trustLabel}>Platforms we run your ads on:</p>
           <div className={styles.trustLogos}>
@@ -49,7 +48,11 @@ export default function Home() {
             </div>
             <div className={styles.logoBadge}>
               <svg width="18" height="18" viewBox="0 0 24 24" fill="#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
-              WhatsApp Funnels
+              WhatsApp
+            </div>
+            <div className={styles.logoBadge}>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="#ffffff"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.17-2.86-.6-4.12-1.31-1.2-.68-2.25-1.61-3.04-2.73v9.04c.03 2.1-.83 4.15-2.4 5.51-1.57 1.36-3.76 1.87-5.78 1.37-2.02-.5-3.69-2.03-4.38-3.95-.69-1.92-.35-4.14 1.01-5.71 1.36-1.57 3.55-2.27 5.6-1.94s3.74 1.57 4.54 3.48c.01-4.9-.01-9.8.01-14.71z"/></svg>
+              TikTok Ads
             </div>
           </div>
         </div>
@@ -67,18 +70,23 @@ export default function Home() {
           <div className={styles.bentoGrid}>
             <div className={`${styles.bentoCard} ${styles.bentoAccent1}`}>
               <span className={styles.bentoEmoji}>📱</span>
-              <h3>&quot;Instagram Posts Hain, Patients Nahi&quot;</h3>
-              <p>Posting daily but the schedule is empty? Social media likes don&apos;t pay your bills. You need patients who are ready to book and pay today.</p>
+              <h3>&quot;Posts Hain, Patients Nahi&quot;</h3>
+              <p>Posting daily on Instagram but the schedule is empty? Likes don&apos;t pay clinic rent. You need patients who walk in today, not fans who follow tomorrow.</p>
             </div>
             <div className={`${styles.bentoCard} ${styles.bentoAccent2}`}>
               <span className={styles.bentoEmoji}>💬</span>
               <h3>&quot;Inquiries Aate Hain, Book Nahi Hote&quot;</h3>
-              <p>People message you but never show up? If you don&apos;t reply in 5 minutes, they go to your competitor. Our system replies instantly, 24/7.</p>
+              <p>People message on WhatsApp but never show up? If you don&apos;t reply instantly, they move to the next clinic. Our AI-system handles leads 24/7 so you don&apos;t have to.</p>
             </div>
             <div className={`${styles.bentoCard} ${styles.bentoAccent3}`}>
               <span className={styles.bentoEmoji}>🔍</span>
-              <h3>&quot;Kharcha Ho Raha Hai, Pata Nahi Kidhar&quot;</h3>
-              <p>Boosting posts but have no idea which ad actually brought a patient? We set up tracking so you see exactly where every rupee goes.</p>
+              <h3>&quot;Kharcha Ho Raha Hai, Trace Nahi Hai&quot;</h3>
+              <p>Boosting posts without knowing which one actually brought a dental implant or hair transplant patient? We stop the guesswork and track every rupee.</p>
+            </div>
+            <div className={`${styles.bentoCard} ${styles.bentoAccent4}`}>
+              <span className={styles.bentoEmoji}>💍</span>
+              <h3>The Shadi Season Playbook</h3>
+              <p>The Nov-Feb wedding rush is make-or-break. We help you fill your surgery slots 3 months in advance with high-intent brides and grooms.</p>
             </div>
           </div>
         </section>
@@ -208,6 +216,20 @@ export default function Home() {
           </div>
         </section>
 
+        {/* ── MARKET PROTECTION (Exclusivity Clause) ───────── */}
+        <section className={styles.scarcitySection}>
+          <div className={styles.scarcityContent}>
+            <div className={styles.scarcityTag}>Market Protection</div>
+            <h2 className={styles.scarcityTitle}>We Only Work With <span className={styles.titleHighlight}>2 Clinics</span> Per City.</h2>
+            <p>To ensure we deliver the highest quality results, we never work with more than two clinics in the same area. This prevents us from competing with our own ads and guarantees your market share.</p>
+            <div className={styles.cityCheck}>
+              <span>✓ Karachi (1 Slot Left)</span>
+              <span>✓ Lahore (Full)</span>
+              <span>✓ Islamabad (1 Slot Left)</span>
+            </div>
+          </div>
+        </section>
+
         {/* ── TESTIMONIALS ─────────────────────────────────── */}
         <section className={styles.section} id="testimonials">
           <div className={styles.sectionHeader}>
@@ -217,17 +239,17 @@ export default function Home() {
           </div>
           <div className={styles.testimonialGrid}>
             <div className={styles.testimonialCard}>
-              <p className={styles.testimonialText}>&quot;We went from 2-3 random inquiries a week to 40+ booked patients in the first month. The WhatsApp system changed everything for us.&quot;</p>
+              <p className={styles.testimonialText}>&quot;InshAllah we are opening our second branch now. We went from 2 inquiries to 40+ booked patients. Direct WhatsApp leads change the game.&quot;</p>
               <div className={styles.testimonialAuthor}>
                 <div className={styles.testimonialAvatar}>Dr</div>
                 <div>
                   <strong>Dr. Ahmed K.</strong>
-                  <span>Hair Transplant Clinic, Lahore</span>
+                  <span>Skin &amp; Hair Clinic, Lahore</span>
                 </div>
               </div>
             </div>
             <div className={styles.testimonialCard}>
-              <p className={styles.testimonialText}>&quot;I was boosting posts for 6 months with no idea what was working. These guys showed me exactly which ad brought which patient. Crystal clear.&quot;</p>
+              <p className={styles.testimonialText}>&quot;MashaAllah, the results are crystal clear. I used to boost posts with zero track. Now I know exactly which ad brought which patient.&quot;</p>
               <div className={styles.testimonialAuthor}>
                 <div className={styles.testimonialAvatar}>S</div>
                 <div>
@@ -237,7 +259,7 @@ export default function Home() {
               </div>
             </div>
             <div className={styles.testimonialCard}>
-              <p className={styles.testimonialText}>&quot;Our no-show rate dropped from 50% to under 15%. The automatic reminders on WhatsApp are a lifesaver for our front desk.&quot;</p>
+              <p className={styles.testimonialText}>&quot;Alhumdulillah, our no-show rate dropped to under 15%. The automatic reminders are a lifesaver for our front desk staff.&quot;</p>
               <div className={styles.testimonialAuthor}>
                 <div className={styles.testimonialAvatar}>R</div>
                 <div>
