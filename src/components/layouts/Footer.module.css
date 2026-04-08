@@ -1,0 +1,94 @@
+.footer {
+  background: var(--color-background-soft);
+  padding: var(--spacing-3xl) 0 0 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  margin-top: var(--spacing-2xl);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-lg) var(--spacing-2xl) var(--spacing-lg);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--spacing-2xl);
+}
+
+.brand {
+  max-width: 350px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--color-foreground);
+  margin-bottom: var(--spacing-md);
+  letter-spacing: -0.02em;
+}
+
+.logoHighlight {
+  color: var(--color-primary);
+}
+
+.brandingMotto {
+  color: var(--color-muted);
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.linksGrid {
+  display: flex;
+  gap: var(--spacing-3xl);
+}
+
+.linkGroup {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.groupTitle {
+  font-size: 0.8125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-foreground);
+  margin-bottom: var(--spacing-sm);
+}
+
+.footerLink {
+  color: var(--color-muted);
+  font-size: 0.9375rem;
+  transition: color 0.2s ease;
+}
+
+.footerLink:hover {
+  color: var(--color-primary);
+}
+
+.bottomBar {
+  padding: var(--spacing-md) 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.bottomBar p {
+  font-size: 0.8125rem;
+  color: var(--color-muted);
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .brand {
+    margin: 0 auto;
+  }
+  .linksGrid {
+    justify-content: center;
+    gap: var(--spacing-xl);
+  }
+}

@@ -1,0 +1,63 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: inherit;
+  font-weight: 600;
+  border-radius: var(--radius-md); /* Soft approachability */
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  border: 1px solid transparent; /* Allows border-box calc stabilization */
+  letter-spacing: 0.02em;
+}
+
+.primary {
+  background: var(--color-primary);
+  color: #000000; /* Max contrast against Emerald */
+  box-shadow: 0 4px 14px rgba(0, 230, 118, 0.2);
+}
+
+.primary:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-glow);
+  background: #00FF83; /* Slightly brighter on hover */
+}
+
+.secondary {
+  background: rgba(255, 255, 255, 0.05); /* Soft glass interior */
+  color: var(--color-foreground);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+}
+
+.secondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+.outline {
+  background: transparent;
+  color: var(--color-foreground);
+  border: 1px solid var(--color-border);
+}
+
+.outline:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: var(--color-muted);
+}
+
+.sm {
+  padding: 8px 16px;
+  font-size: 0.8125rem;
+}
+
+.md {
+  padding: 12px 24px;
+  font-size: 0.9375rem;
+}
+
+.lg {
+  padding: 16px 36px;
+  font-size: 1.05rem;
+}

@@ -1,0 +1,91 @@
+.main {
+  min-height: 100vh;
+  padding-top: calc(var(--nav-height) + var(--spacing-xl));
+  padding-bottom: var(--spacing-3xl);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--container-padding);
+}
+
+.hero {
+  margin-bottom: var(--spacing-2xl);
+}
+
+.subtitle {
+  display: inline-block;
+  background: rgba(0, 230, 118, 0.1);
+  color: var(--color-primary);
+  font-weight: 600;
+  padding: 6px 16px;
+  border-radius: 100px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.8125rem;
+  margin-bottom: var(--spacing-md);
+  border: 1px solid rgba(0, 230, 118, 0.2);
+}
+
+.title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.1;
+  color: var(--color-foreground);
+  letter-spacing: -0.02em;
+  margin-bottom: var(--spacing-lg);
+  max-width: 800px;
+}
+
+.description {
+  font-size: 1.25rem;
+  color: var(--color-muted);
+  line-height: 1.6;
+  max-width: 750px;
+}
+
+/* Feature Grid / Service Modules */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  gap: var(--spacing-xl);
+  margin-top: var(--spacing-2xl);
+}
+
+.card {
+  background: var(--color-background-soft);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-2xl);
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.card h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: var(--spacing-md);
+  color: var(--color-foreground);
+}
+
+.card p {
+  color: var(--color-muted);
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem !important;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
