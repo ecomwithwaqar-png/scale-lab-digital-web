@@ -224,8 +224,9 @@ export default function Home() {
             <p>To ensure we deliver the highest quality results, we never work with more than two clinics in the same area. This prevents us from competing with our own ads and guarantees your market share.</p>
             <div className={styles.cityCheck}>
               <span>✓ Karachi (1 Slot Left)</span>
-              <span>✓ Lahore (Full)</span>
+              <span>✓ Lahore (1 Slot Left)</span>
               <span>✓ Islamabad (1 Slot Left)</span>
+              <span>✓ Peshawar (2 Slots Left)</span>
             </div>
           </div>
         </section>
