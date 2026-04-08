@@ -9,7 +9,7 @@ export function Navbar() {
       <div className={styles.container}>
         <div className={styles.logo}>
           <Link href="/">
-            <span className={styles.logoHighlight}>Clinical</span>Acquisition
+            <span className={styles.logoHighlight}>Scale Lab</span>Digital
           </Link>
         </div>
         

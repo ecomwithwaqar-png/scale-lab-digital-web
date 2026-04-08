@@ -9,8 +9,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Clinical Acquisition Engine | Performance Marketing",
-  description: "We engineer predictable patient flow for high-growth clinics.",
+  title: "Scale Lab Digital | Pakistani Clinic Acquisition Engine",
+  description: "Performance marketing for high-growth clinics in Pakistan. We engineer predictable patient flow.",
 };
 
 export default function RootLayout({

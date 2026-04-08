@@ -7,7 +7,7 @@ export function Footer() {
       <div className={styles.container}>
         <div className={styles.brand}>
           <div className={styles.logo}>
-            <span className={styles.logoHighlight}>Clinical</span>Acquisition
+            <span className={styles.logoHighlight}>Scale Lab</span>Digital
           </div>
           <p className={styles.brandingMotto}>
             Getting more patients for Pakistani aesthetic <br/> clinics through simple, proven systems.
@@ -33,7 +33,7 @@ export function Footer() {
       
       <div className={styles.bottomBar}>
         <div className={styles.container}>
-          <p>© {new Date().getFullYear()} Clinical Acquisition Engine. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Scale Lab Digital. All rights reserved.</p>
         </div>
       </div>
     </footer>
